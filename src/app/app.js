@@ -17,6 +17,22 @@ class AppCtrl {
 }
 
 const MODULE_NAME = 'app';
+const dependencies = [
+  'ngAnimate',
+  'ui.bootstrap',
+  'ui.sortable',
+  'ui.router',
+  'ngTouch',
+  'toastr',
+  'smart-table',
+  "xeditable",
+  'ui.slimscroll',
+  'ngJsTree',
+  'angular-progress-button-styles',
+
+  'BlurAdmin.theme',
+  'BlurAdmin.pages',
+];
 
 angular.module(MODULE_NAME, [])
   .directive('app', app)
