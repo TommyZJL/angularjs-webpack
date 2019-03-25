@@ -30,8 +30,8 @@ const dependencies = [
   'ngJsTree',
   'angular-progress-button-styles',
 
-  'BlurAdmin.theme',
-  'BlurAdmin.pages',
+  // 'BlurAdmin.theme',
+  // 'BlurAdmin.pages',
 ];
 
 angular.module(MODULE_NAME, [])
