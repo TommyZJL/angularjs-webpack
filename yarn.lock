@@ -138,22 +138,6 @@ angular-animate@^1.5.8:
   resolved "https://registry.yarnpkg.com/angular-animate/-/angular-animate-1.7.8.tgz#c95f237efe7ecfe0e6003adb5e2c7ef0e5a2b9d4"
   integrity sha512-bINtzizq7TbJzfVrDpwLfTxVl0Qd7fRNWFb5jKYI1vaFZobQNX/QONXlLow6ySsDbZ6eLECycB7mvWtfh1YYaw==
 
-angular-chart.js@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/angular-chart.js/-/angular-chart.js-1.1.1.tgz#49f0e18d081762b6d4c9791e487aff2fbb30f5ae"
-  integrity sha1-SfDhjQgXYrbUyXkeSHr/L7sw9a4=
-  dependencies:
-    angular "1.x"
-    chart.js "2.3.x"
-
-angular-chartist.js@^3.3.12:
-  version "3.3.13"
-  resolved "https://registry.yarnpkg.com/angular-chartist.js/-/angular-chartist.js-3.3.13.tgz#7f31401b8237fbedd122d18a729afab2de7b53ba"
-  integrity sha1-fzFAG4I3++3RItGKcpr6st57U7o=
-  dependencies:
-    angular "^1.2.28"
-    chartist "^0.9.0"
-
 angular-mocks@^1.7.0:
   version "1.7.8"
   resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.7.8.tgz#95e7887ca91d1a3e176cc22f2d1941d284ce9767"
@@ -175,21 +159,6 @@ angular-slimscroll@^1.0.0:
     gulp "^3.9.1"
     gulp-closure-compiler "^0.4.0"
 
-angular-smart-table@^2.1.11:
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/angular-smart-table/-/angular-smart-table-2.1.11.tgz#d0ca625f5bfb873bf3748ab861c82892e42ddfa2"
-  integrity sha512-8ZSGygQqVBkpPDzb0382ujK1eOr8fnePXpzq+sUBkUsvRaEgMeY6VoFpWmg106472mD6oMNXIW9+VDQKllXa0w==
-
-angular-toastr@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/angular-toastr/-/angular-toastr-2.1.1.tgz#9f8350ca482145a44d011a755b8fb3623d60544c"
-  integrity sha1-n4NQykghRaRNARp1W4+zYj1gVEw=
-
-angular-touch@^1.5.8:
-  version "1.7.8"
-  resolved "https://registry.yarnpkg.com/angular-touch/-/angular-touch-1.7.8.tgz#f779331c2248232510214471c7fb4c7679312ce6"
-  integrity sha512-YCpirIDueMIRJfSZg0glzqTfr3HyGx0/DeZorN3TkFelYj0YwxvwldQm2NcqpQR3SNfEj7ZbkcrXl1ekTILQOw==
-
 angular-ui-bootstrap@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/angular-ui-bootstrap/-/angular-ui-bootstrap-1.3.3.tgz#4820f895d433c17abeb4ac7387f2f122cbf8c11c"
@@ -202,11 +171,6 @@ angular-ui-router@^1.0.22:
   dependencies:
     "@uirouter/core" "5.0.23"
 
-angular-ui-sortable@^0.15.0:
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/angular-ui-sortable/-/angular-ui-sortable-0.15.1.tgz#6f76a4a4620b2232774897d80a352348d9e47a1c"
-  integrity sha1-b3akpGILIjJ3SJfYCjUjSNnkehw=
-
 angular-xeditable@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/angular-xeditable/-/angular-xeditable-0.9.0.tgz#5eaa143058959a985de4475ce1d7c7539b60ee8a"
@@ -214,7 +178,7 @@ angular-xeditable@^0.9.0:
   dependencies:
     angular "~1.x"
 
-angular@1.x, angular@^1.2.28, angular@^1.5.0, angular@^1.6.4, angular@^1.7.0, angular@~1.x:
+angular@^1.5.0, angular@^1.6.4, angular@^1.7.0, angular@~1.x:
   version "1.7.8"
   resolved "https://registry.yarnpkg.com/angular/-/angular-1.7.8.tgz#b77ede272ce1b261e3be30c1451a0b346905a3c9"
   integrity sha512-wtef/y4COxM7ZVhddd7JtAAhyYObq9YXKar9tsW7558BImeVYteJiTxCKeJOL45lJ/+7B4wrAC49j8gTFYEthg==
@@ -1441,18 +1405,18 @@ chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chart.js@2.3.x:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.3.0.tgz#40460e48e2c417c05fc3325cd84f7b000dc7d7d6"
-  integrity sha1-QEYOSOLEF8BfwzJc2E97AA3H19Y=
+chart.js@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.8.0.tgz#b703b10d0f4ec5079eaefdcd6ca32dc8f826e0e9"
+  integrity sha512-Di3wUL4BFvqI5FB5K26aQ+hvWh8wnP9A3DWGvXHVkO13D3DSnaSsdZx29cXlEsYKVkn1E2az+ZYFS4t0zi8x0w==
   dependencies:
-    chartjs-color "^2.0.0"
-    moment "^2.10.6"
+    chartjs-color "^2.1.0"
+    moment "^2.10.2"
 
-chartist@^0.9.0:
-  version "0.9.8"
-  resolved "https://registry.yarnpkg.com/chartist/-/chartist-0.9.8.tgz#08040365c27843811343f008b0bbe9933c780677"
-  integrity sha1-CAQDZcJ4Q4ETQ/AIsLvpkzx4Bnc=
+chartist@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/chartist/-/chartist-0.11.0.tgz#84ba5e05490d096d93dcfa9343ebc31ef6a3bd28"
+  integrity sha1-hLpeBUkNCW2T3PqTQ+vDHvajvSg=
 
 chartjs-color-string@^0.6.0:
   version "0.6.0"
@@ -1461,7 +1425,7 @@ chartjs-color-string@^0.6.0:
   dependencies:
     color-name "^1.0.0"
 
-chartjs-color@^2.0.0:
+chartjs-color@^2.1.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/chartjs-color/-/chartjs-color-2.3.0.tgz#0e7e1e8dba37eae8415fd3db38bf572007dd958f"
   integrity sha512-hEvVheqczsoHD+fZ+tfPUE+1+RbV6b+eksp2LwAhwRTVXEjCSEavvk+Hg3H6SZfGlPh/UfmWKGIvZbtobOEm3g==
@@ -5103,7 +5067,7 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@
   dependencies:
     minimist "0.0.8"
 
-moment@^2.10.6:
+moment@^2.10.2:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==

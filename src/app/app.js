@@ -1,4 +1,11 @@
 import angular from 'angular';
+import ngAnimate from 'angular-animate';
+
+import 'angular-xeditable';
+import 'angular-ui-router';
+import 'angular-ui-bootstrap';
+
+import appThemeModuleName from './theme/theme.module';
 
 import '../style/app.css';
 
@@ -6,7 +13,6 @@ let app = () => {
   return {
     template: require('./app.html'),
     controller: 'AppCtrl',
-    controllerAs: 'app'
   }
 };
 
@@ -18,23 +24,16 @@ class AppCtrl {
 
 const MODULE_NAME = 'app';
 const dependencies = [
-  'ngAnimate',
+  ngAnimate,
   'ui.bootstrap',
-  'ui.sortable',
   'ui.router',
-  'ngTouch',
-  'toastr',
-  'smart-table',
-  "xeditable",
-  'ui.slimscroll',
-  'ngJsTree',
-  'angular-progress-button-styles',
+  'xeditable',
 
-  // 'BlurAdmin.theme',
+  appThemeModuleName,
   // 'BlurAdmin.pages',
 ];
 
-angular.module(MODULE_NAME, [])
+angular.module('app', dependencies)
   .directive('app', app)
   .controller('AppCtrl', AppCtrl);
 
