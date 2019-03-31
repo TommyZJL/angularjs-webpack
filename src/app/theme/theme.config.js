@@ -1,5 +1,3 @@
-import baConfigProvider from './theme.configProvider';
-
 let appThemeConfig = function(baConfigProvider) {
   baConfigProvider.changeTheme({blur: true});
     
