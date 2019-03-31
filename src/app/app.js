@@ -1,4 +1,11 @@
 import angular from 'angular';
+import ngAnimate from 'angular-animate';
+
+import 'angular-xeditable';
+import 'angular-ui-router';
+import 'angular-ui-bootstrap';
+
+import appThemeModuleName from './theme/theme.module';
 
 import '../style/app.css';
 
@@ -6,7 +13,6 @@ let app = () => {
   return {
     template: require('./app.html'),
     controller: 'AppCtrl',
-    controllerAs: 'app'
   }
 };
 
@@ -17,8 +23,17 @@ class AppCtrl {
 }
 
 const MODULE_NAME = 'app';
+const dependencies = [
+  ngAnimate,
+  'ui.bootstrap',
+  'ui.router',
+  'xeditable',
 
-angular.module(MODULE_NAME, [])
+  appThemeModuleName,
+  // 'BlurAdmin.pages',
+];
+
+angular.module('app', dependencies)
   .directive('app', app)
   .controller('AppCtrl', AppCtrl);
 
